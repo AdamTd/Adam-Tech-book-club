@@ -1,6 +1,7 @@
 import "./Home.css";
 import logo from "../icons/logo.svg";
 import icon_star from "../icons/icon-star.svg";
+import arrow_down from "../icons/icon-arrow-down.svg";
 import Home_img from "../images/image-hero-mobile.webp";
 import avatars from "../images/image-avatars.webp";
 
@@ -18,7 +19,10 @@ export default function Home() {
             enthusiasts. Get curated recommendations, join vibrant discussions,
             and level up your skills one chapter at a time.
           </p>
-          <button className="btn">REVIEW MEMBERSHIP OPTIONS ⬇️</button>
+          <button className="btn">
+            REVIEW MEMBERSHIP OPTIONS
+            <img src={arrow_down} alt="arrow_down" />
+          </button>
           <div className="home__footer">
             <img src={avatars} alt="avatars" />
             <div className="home__rating">
