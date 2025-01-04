@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.main__container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+}
+.main__content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 600px;
+}
+.main__content h1 {
+  font-family: "Martian Mono";
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1;
+}
+.main__img {
+  max-width: 400px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+.main__icon {
+  position: absolute;
+  left: 63%;
+  top: 50%;
+  z-index: 100;
+}
+.journey {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  padding: 50px;
+  margin-top: 100px;
+  width: 1200px;
+  border-radius: 15px;
+  background: linear-gradient(135deg, rgba(255, 206, 150, 0.1), #a8a8ff80);
+  box-shadow: 0 0 15px rgba(255, 211, 140, 0.5);
+}
+.journey h1 {
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+  font-family: "Martian Mono";
+  font-size: 60px;
+  line-height: 1;
+}
+.step {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  width: 100%;
+}
+.step__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 20px;
+}
+.step__content p {
+  font-family: "Martian Mono";
+  font-size: 18px;
+  font-weight: 700;
+}
+.step__number {
+  display: flex;
+  justify-content: space-between;
+}
+.step__number p {
+  border: 2px solid #000;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-family: "Martian Mono";
+  font-size: 30px;
+  font-weight: 700;
+}
+.membership {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  margin-top: 20px;
+}
+.membership h1 {
+  text-align: center;
+  font-family: "Martian Mono";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1;
+}
+.membership h2 {
+  font-size: 18px;
+}
+.membership h2 span {
+  font-family: "Martian Mono";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1;
+}
+.membership h3 {
+  font-family: "Martian Mono";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1;
+}
+.membership__content {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+.starter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 350px;
+  gap: 30px;
+  margin: 16px 0px;
+  padding: 24px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(255, 199, 108, 0.5);
+}
+.starter__list {
+  display: flex;
+  gap: 10px;
+}
+.pro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 400px;
+  gap: 30px;
+  margin: 16px 0px;
+  padding: 50px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, rgba(255, 206, 150, 0.1), #a8a8ff80);
+  box-shadow: 0 0 15px rgba(255, 211, 140, 0.5);
+  transform: scaleY(1.2);
+}
+.enterprise {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 350px;
+  gap: 30px;
+  margin: 16px 0px;
+  padding: 24px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(255, 199, 108, 0.5);
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+li {
+  display: flex;
+  gap: 10px;
+}
+.feedback {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 800px;
+  margin: 30px auto;
+}
+.feedback .rated {
+  display: flex;
+  justify-content: center;
+}
+.feedback h2 {
+  text-align: center;
+  font-family: "Martian Mono";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+.feedback p {
+  font-size: 20px;
+  text-align: center;
+}

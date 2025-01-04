@@ -4,12 +4,8 @@
   box-sizing: border-box;
 }
 .container {
-  background: linear-gradient(
-    135deg,
-    rgba(255, 255, 255, 0.1),
-    rgba(226, 226, 255, 0.5)
-  );
-  box-shadow: 0 0 15px rgba(140, 140, 255, 0.5);
+  background: linear-gradient(135deg, rgba(255, 206, 150, 0.1), #a8a8ff80);
+  box-shadow: 0 0 15px rgba(255, 211, 140, 0.5);
 }
 .navbar {
   max-width: 1200px;
@@ -19,6 +15,7 @@
 
 .home {
   display: flex;
+  justify-content: space-between;
   gap: 70px;
   max-width: 1200px;
   margin: 0 auto;
@@ -27,7 +24,7 @@
 .home__content {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 30px;
   max-width: 600px;
 }
 
@@ -59,7 +56,7 @@
   font-weight: 700;
   line-height: 1;
 }
-.home__content p {
+p {
   font-family: "inter sans", sans-serif;
   font-size: 20px;
   font-weight: 400;
