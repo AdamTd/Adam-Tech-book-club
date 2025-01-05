@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.747c652a.css",
+    "main.js": "/static/js/main.a5d3efcb.js",
+    "static/media/image-hero-mobile.webp": "/static/media/image-hero-mobile.40deb5cfb6cebc1928a5.webp",
+    "static/media/image-not-average-mobile.webp": "/static/media/image-not-average-mobile.2d863151af01140801d0.webp",
+    "static/media/image-read-together-mobile.webp": "/static/media/image-read-together-mobile.fc48eac8943c9b6418c8.webp",
+    "static/media/logo.svg": "/static/media/logo.7f0f666c70273c4f1be7824c639116a5.svg",
+    "static/media/logos-tech.svg": "/static/media/logos-tech.a6f1f7ee3709ef120828e30753c69216.svg",
+    "static/media/image-avatars.webp": "/static/media/image-avatars.daa5ca1cebd296d0e760.webp",
+    "index.html": "/index.html",
+    "static/media/logo-linkedin.svg": "/static/media/logo-linkedin.b18c9c2ff1fb14c65296753fe94ce9f6.svg",
+    "static/media/logo-bluesky.svg": "/static/media/logo-bluesky.631df4bd44d2caba34c0346b09b7e9d1.svg",
+    "static/media/pattern-arrow.svg": "/static/media/pattern-arrow.e06d17d63c2687055fda571dd77f2e13.svg",
+    "static/media/icon-check.svg": "/static/media/icon-check.48b454c090c7fd3bed17c1b07cfb0742.svg",
+    "static/media/icon-star.svg": "/static/media/icon-star.a134c4b6629b54f5825779693a8cd5e8.svg",
+    "static/media/icon-arrow-down.svg": "/static/media/icon-arrow-down.a3e52a0eef1edb92b7989c31e88a455d.svg",
+    "static/media/icon-arrow-up.svg": "/static/media/icon-arrow-up.4f3517c58b23f21839041d2874efc54b.svg",
+    "main.747c652a.css.map": "/static/css/main.747c652a.css.map",
+    "main.a5d3efcb.js.map": "/static/js/main.a5d3efcb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.747c652a.css",
+    "static/js/main.a5d3efcb.js"
+  ]
+}
