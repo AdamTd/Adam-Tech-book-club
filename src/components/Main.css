@@ -9,14 +9,17 @@
   display: flex;
   flex-direction: column;
   gap: 50px;
+  padding: 0 15px;
 }
 
 .main__container {
   position: relative;
   display: flex;
+  gap: 30px;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 1200px;
+  width: 100%;
 }
 .main__content {
   display: flex;
@@ -31,7 +34,7 @@
   line-height: 1;
 }
 .main__img {
-  max-width: 400px;
+  max-width: 100%;
   border-radius: 20px;
   margin-bottom: 30px;
 }
@@ -48,7 +51,7 @@
   gap: 80px;
   padding: 50px;
   margin-top: 100px;
-  width: 1200px;
+  width: 100%;
   border-radius: 15px;
   background: linear-gradient(135deg, rgba(255, 206, 150, 0.1), #a8a8ff80);
   box-shadow: 0 0 15px rgba(255, 211, 140, 0.5);
@@ -121,13 +124,15 @@
 .membership__content {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   gap: 20px;
 }
 .starter {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 350px;
+  width: 100%;
+  max-width: 350px;
   gap: 30px;
   margin: 16px 0px;
   padding: 24px;
@@ -142,7 +147,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
   gap: 30px;
   margin: 16px 0px;
   padding: 50px;
@@ -155,7 +161,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 350px;
+  width: 100%;
+  max-width: 350px;
   gap: 30px;
   margin: 16px 0px;
   padding: 24px;
@@ -193,4 +200,69 @@ li {
 .feedback p {
   font-size: 20px;
   text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .main {
+    gap: 30px;
+  }
+  .main__container {
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+  .main__content h1 {
+    font-size: 50px;
+  }
+  .main__img {
+    max-width: 100%;
+  }
+  .journey {
+    padding: 30px;
+  }
+  .journey h1 {
+    font-size: 50px;
+  }
+  .step {
+    gap: 20px;
+  }
+  .membership__content {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main {
+    gap: 20px;
+  }
+  .main__container {
+    gap: 20px;
+    align-items: center;
+  }
+  .main__content h1 {
+    font-size: 40px;
+  }
+  .journey {
+    display: none;
+  }
+  .feedback h2 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main {
+    gap: 15px;
+  }
+  .main__content h1 {
+    font-size: 30px;
+  }
+  .feedback h2 {
+    font-size: 25px;
+  }
+  .membership__content {
+    flex-direction: column;
+  }
 }

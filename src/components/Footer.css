@@ -34,13 +34,12 @@
   gap: 10px;
   font-family: "Martian Mono";
   font-size: 18px;
-  width: 100%;
+  font-weight: bold;
   max-width: 400px;
   height: 50px;
   padding: 10px 20px;
   background-color: #062630;
   color: #fff5ef;
-  font-weight: bold;
   border: 2px solid #fff5ef;
   border-radius: 10px;
   cursor: pointer;
@@ -61,7 +60,7 @@
   flex-direction: column;
 }
 .footer hr {
-  max-width: 1400px;
+  max-width: 100%;
   margin: 10px auto;
   border: 1px solid #fff5ef;
 }
@@ -76,4 +75,12 @@
   display: flex;
   justify-content: space-around;
   gap: 120px;
+}
+@media (max-width: 480px) {
+  * {
+    overflow-x: hidden;
+  }
+  .footer__Reference .btn {
+    width: 300px;
+  }
 }
